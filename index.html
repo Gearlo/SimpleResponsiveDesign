@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- 3rd css -->
+    <link href="3rd/bootstrap4/css/bootstrap.css" rel="stylesheet" >
+    <link href="3rd/awesomeFont/css/all.css"      rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- PAGE HEADER -->
+    <header class="navbar container-fluid bar-color-black">
+      <div class="col-2">
+        <i class="fas fa-home DSK"></i>
+        <i class="fas fa-list" id="navBarM-show"></i>
+      </div>
+      <div class="col-8 text-center">
+        <img class="bar-img-logo" src="images/white-black logo.png">
+      </div>
+      <div class="col-2 text-right" >
+        <span id="accountName" class=" DSK"></span>
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="col-12 profile-role-mb">
+        <div class="col-4 text-center"> <span class="profile-role-mb-tx">COMPRADOR</span> <img src="images/buyer-user-white.svg" style="width: 30px"> </div>
+        <div class="col-4 text-center focus"> <span class="profile-role-mb-tx">VENDEDOR</span>  <img src="images/vendor-user-white.svg" style="width: 30px"></div>
+        <div class="col-4 text-center"> <span class="profile-role-mb-tx">COMPORATIVO</span> <img src="images/enterprise-user-white.svg" style="width: 30px"> </div>
+      </div>
+    </header>
+
+    <!-- SEPARATOR -->
+    <div class="separator1"></div>
+
+    <!-- ACOUNT TYPE MENU -->
+    <div class="container profile-role">
+      <div class="row">
+        <div class="col-4 text-right dashboard-option">
+          <img src="images/buyer-user.svg" class="icon">
+          <br>PERFIL COMPRADOR
+        </div>
+        <div class="col-4 text-center dashboard-option focus2">
+          <img src="images/vendor-user.svg" class="icon">
+          <br>PERFIL VENDEDOR
+        </div>
+        <div class="col-4 text-left dashboard-option">
+          <img src="images/enterprise-user.svg" class="icon">
+          <br>PERFIL CORPORATIVO
+        </div>
+      </div>
+    </div>
+
+    <!-- SEPARATOR -->
+    <div class="separator2"></div>
+
+    <!-- DASHBOARD -->
+    <div class="container-fluid dashboard">
+
+      <div class="row">
+        <div class = "d-none d-lg-block col-lg-1"></div>
+
+        <!-- NAV COLUMN -->
+        <div class = "d-none d-sm-block col-4 col-md-4 col-lg-3 dashboard-options">
+          <div class="text-center"><span class="badge badge-primary">TOUR/TUTORIAL</span>
+          </div><hr>
+
+          <div class="dashboard-option switch-profile">
+            <i class="text-center"> <span class="fas fa-user align-middle"></span> </i>  &nbsp; <a>MI PERFIL</a></br>
+          </div><hr>
+
+          <div class="dashboard-option switch-states">
+            <i class="text-center"> <span class="fas fa-heart align-middle"></span> </i>  &nbsp; <a>MIS INMUEBLES</a></br>
+          </div><hr>
+
+          <div class="dashboard-option switch-offert">
+            <i class="text-center"> <span class="fas fa-search-dollar align-middle"></span> </i>  &nbsp; <a>MIS OFERTAS</a></br>
+          </div><hr>
+
+          <div class="dashboard-option switch-banks">
+            <i class="text-center"> <span class="fas fa-hand-holding-usd align-middle"></span> </i>  &nbsp; <a>MI BANCA</a></br>
+          </div><hr>
+
+          <div class="dashboard-option switch-notifications">
+            <i class="text-center"> <span class="fas fa-envelope align-middle"></span></i><sup class="notifications-number" style="left: -12px">  </sup>  &nbsp; <a>NOTIFICACIONES</a></br>
+          </div><hr>
+
+          <div class="dashboard-option switch-preferences">
+            <i class="text-center"> <span class="fas fa-cogs align-middle"></span> </i>  &nbsp; <a>PREFERENCIAS</a></br>
+          </div><hr>
+        </div>
+
+        <!-- MOBILE NAV COLUMN -->
+        <div class="dashboard-options-mb">
+          <!-- LATERAL INFO -->
+            <div class="options">
+              <div class = "text-center profile-info">
+                <div style="position: relative; height: 135px" id="text-center">
+                  <img class="profile-avatar">
+                  <div style="position: relative; top: -35px">
+                    <div class="checkmark" style="display: inline-block; margin-left: 75px">✓</div>
+                  </div>
+                </div>
+                <div class="LBLUE" style="font-size: 18px"> <b class="avatar-name">...</b> </div>
+                <div class="LGREEN" style="font-size: 14px; margin-bottom: 10px"> VERIFICADO </div>
+              </div>
+
+              <hr style="margin-top: 26px; margin-bottom: 18px;">
+
+              <div class="dashboard-option switch-profile">
+                <i class="text-center"> <span class="fas fa-user align-middle"></span> </i>  &nbsp; <a>MI PERFIL</a></br>
+              </div>
+
+              <div class="dashboard-option switch-states">
+                <i class="text-center"> <span class="fas fa-heart align-middle"></span> </i>  &nbsp; <a>MIS INMUEBLES</a></br>
+              </div>
+
+              <div class="dashboard-option switch-offert">
+                <i class="text-center"> <span class="fas fa-search-dollar align-middle"></span> </i>  &nbsp; <a>MIS OFERTAS</a></br>
+              </div>
+
+              <div class="dashboard-option switch-banks">
+                <i class="text-center"> <span class="fas fa-hand-holding-usd align-middle"></span> </i>  &nbsp; <a>MI BANCA</a></br>
+              </div>
+
+              <div class="dashboard-option switch-notifications">
+                <i class="text-center"> <span class="fas fa-envelope align-middle"></span></i><sup class="notifications-number" style="left: -12px">  </sup>  &nbsp; <a>NOTIFICACIONES</a></br>
+              </div>
+
+              <div class="dashboard-option switch-preferences">
+                <i class="text-center"> <span class="fas fa-cogs align-middle"></span> </i>  &nbsp; <a>PREFERENCIAS</a></br>
+              </div>
+          </div>
+        </div>
+
+
+        <div class = "col-12 col-sm-8 col-md-5 col-lg-4 tab-content profile-edit-form">
+          <!-- EDIT FORM -->
+          <div class="separator3 d-none d-sm-block"></div>
+          <div class="form-group row">
+            <label for="form-name" class="d-none d-md-block col-md-6 col-form-label text-right">NOMBRE: <br></label>
+            <label for="form-name" class="col-12 d-md-none">NOMBRE:</label>
+            <div class="col-12 col-md-6">
+              <input class="form-control profile-edit HIDDEN" type="text" value="" id="form-name" autofocus>
+              <label class="profile-view DGRAY" id="form-name-v"> </label>
+            </div>
+
+            <label for="form-lastname" class="d-none d-md-block col-md-6 col-form-label text-right">APELLIDO:</label>
+            <label for="form-lastname" class="col-12 d-md-none">APELLIDO:</label>
+            <div class="col-12 col-md-6 ">
+              <input class="form-control profile-edit HIDDEN" type="text" value="" id="form-lastname">
+              <label class="profile-view DGRAY" id="form-lastname-v"> </label>
+            </div>
+
+            <label for="form-mail" class="d-none d-md-block col-md-6 col-form-label text-right">CORREO:
+              <br><span class="validation-mail validation-text validation-good"> verificado</span>
+            </label>
+            <label for="form-mail" class="col-12 d-md-none">CORREO:<span class="validation-mail validation-text validation-good"> verificado</span></label>
+            <div class="col-12 col-md-6">
+              <input class="form-control profile-edit HIDDEN" type="text" value="" id="form-mail">
+              <label class="profile-view DGRAY" id="form-mail-v"> </label>
+            </div>
+
+            <label for="form-phone" class="d-none d-md-block col-md-6 col-form-label text-right">TELEFONOS:
+              <br><span class="validation-phone validation-text validation-good"> verificado</span>
+            </label>
+            <label for="form-phone" class="col-12 d-md-none">TELEFONOS: <span class="validation-phone validation-text validation-good"> verificado</span></label>
+            <div class="col-12 col-md-6">
+              <input class="form-control profile-edit HIDDEN" type="text" value="" id="form-phone1" maxlength="8">
+              <input class="form-control profile-edit HIDDEN" type="text" value="" id="form-phone2" maxlength="8">
+
+              <label class="profile-view DGRAY" id="form-phone-v"> </label>
+            </div>
+
+            <button type="button" class="btn btn-dark btn-sm profile-edit-buttons profile-view" id="button-edit">Editar</button>
+
+            <div class="profile-edit-buttons profile-edit HIDDEN">
+              <button type="button" class="btn btn-primary btn-sm" id="button-save" style="margin-right: 10px">Guardar</button>
+              <button type="button" class="btn btn-dark btn-sm" id="button-cancel">Cancelar</button>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- LATERAL INFO -->
+        <div class = "d-none d-md-block col-md-3 text-center tab-content profile-info">
+          <div style="position: relative; height: 135px" id="text-center">
+            <img class="profile-avatar">
+            <div style="position: relative; top: -35px">
+              <div class="checkmark" style="display: inline-block; margin-left: 75px">✓</div>
+            </div>
+          </div>
+          <div class="BLUE" style="font-size: 18px"> <b class="avatar-name">...</b> </div>
+          <div class="LGREEN" style="font-size: 14px; margin-bottom: 10px"> VERIFICADO </div>
+          <div class="LGRAY" style="font-size: 12px"> - FECHA DE INGRESO - </div>
+          <div class="LGRAY" style="font-size: 12px">  NOVIEMBRE 2017  </div>
+
+          <div class="social-networks LGRAY">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-google-plus-g"></i>
+          </div>
+          <div class="social-networks- DGRAY" style="font-size: 12px">  ANEXA TUS REDES SOCIALES  </div>
+
+        </div>
+
+
+        <!-- Estates -->
+        <div class="col-12 col-sm-7 HIDDEN tab-content states-list"></div>
+        <div class="col-12 col-sm-7 HIDDEN tab-content preferences-content"></div>
+        <div class="col-12 col-sm-7 HIDDEN tab-content offert-content"></div>
+
+        <div class="col-12 col-sm-7 HIDDEN tab-content banks-content">
+          <hr><div class="back">
+            <i class="text-center"> <span class="fas fa-home align-middle"></span> </i>  &nbsp; <a></a></br>
+          </div><hr>
+          <div class="back">
+            <i class="text-center"> <span class="fas fa-home align-middle"></span> </i>  &nbsp; <a></a></br>
+          </div><hr>
+        </div>
+
+        <div class="col-12 col-sm-7 HIDDEN tab-content notifications-content">
+          <hr><div class="back">
+            <i class="text-center"> <span class="fas fa-user align-middle"></span> </i>  &nbsp; <a></a></br>
+          </div><hr>
+          <div class="back">
+            <i class="text-center"> <span class="fas fa-user align-middle"></span> </i>  &nbsp; <a></a></br>
+          </div><hr>
+          <div class="back">
+            <i class="text-center"> <span class="fas fa-user align-middle"></span> </i>  &nbsp; <a></a></br>
+          </div><hr>
+          <div class="back">
+            <i class="text-center"> <span class="fas fa-user align-middle"></span> </i>  &nbsp; <a></a></br>
+          </div><hr>
+        </div>
+
+
+        <div class="col-7 col-md-7 HIDDEN tab-content preferences-content"></div>
+        <div class = "d-none d-lg-block col-lg-1">  </div>
+      </div>
+    </div>
+
+    <div class="separator3"></div>
+    <footer class="page-footer font-small text-center">
+      <img src="images/icon-facebook.png"> &nbsp;
+      <img src="images/icon-twiter.png">   &nbsp;
+      <img src="images/icon-googlep.png">  &nbsp;
+      <img src="images/icon-yotube.png">   &nbsp;
+    </footer>
+
+    <!-- 3rd js -->
+    <script src="3rd/jQuery/js/jquery.min.js"   ></script>
+    <script src="3rd/bootstrap4/js/bootstrap.js"></script>
+
+    <!-- own js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

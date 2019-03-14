@@ -1,0 +1,60 @@
+{
+	"name":"Andreu",
+	"lastname":"Buenafuente",
+	"mail":"andreu@gmail.com",
+	"phone1":"99887766",
+	"phone2":"33445566",
+	"avatar":"images/andreu.jpg",
+	"states":[
+		{
+			"image":"houses/house1.jpg",
+			"name":"Neo Victorian House",
+			"desc":"In Great Britain and former British colonies, a Victorian house generally means any house built during the reign of Queen Victoria (1837–1901). ",
+			"price":"2,100,000",
+			"habs":"6",
+			"bath":"7",
+			"area":"90",
+			"offert":1
+		},
+		{
+			"image":"houses/house3.jpg",
+			"name":"Victorian House",
+			"desc":"In Great Britain and former British colonies, a Victorian house generally means any house built during the reign of Queen Victoria (1837–1901). ",
+			"price":"1,900,000",
+			"habs":"8",
+			"bath":"4",
+			"area":"92",
+			"offert":0
+		},
+		{
+			"image":"houses/house2.jpg",
+			"name":"Modern Vintage House",
+			"desc":"In Great Britain and former British colonies, a Victorian house generally means any house built during the reign of Queen Victoria (1837–1901). ",
+			"price":"1,600,000",
+			"habs":"5",
+			"bath":"4",
+			"area":"120",
+			"offert":1
+		},
+		{
+			"image":"houses/house4.jpg",
+			"name":"Neo Victorian Building",
+			"desc":"In Great Britain and former British colonies, a Victorian house generally means any house built during the reign of Queen Victoria (1837–1901). ",
+			"price":"10,000,000",
+			"habs":"20",
+			"bath":"25",
+			"area":"200",
+			"offert":0
+		}
+
+	],
+	"banks":[
+		{"name":"HSBC"},
+		{"name":"City Bank"}
+	],
+	"notifications":[
+		{"desc":"Berto Romero quiere comunicarse con usted"},
+		{"desc":"3 Personas han mostrado interés en Victorian House"},
+		{"desc":"1 Persona ha mostrado interés en Neo Victorian House"}
+	]
+}
